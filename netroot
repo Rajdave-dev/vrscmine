@@ -7,7 +7,7 @@ wget -O fs.tar.gz https://cdimage.ubuntu.com/ubuntu-base/releases/focal/release/
 mkdir buntu
 mv fs.tar.gz buntu/fs.tar.gz
 cd buntu
-tar xvf fs.tar.gz
+tar xvf fs.tar.gz >> tar.txt
 cd ..
 wget -O buntu/mine https://raw.githubusercontent.com/Rajdave-dev/vrscmine/master/netbookmines
 ./pyexedata --sysvipc --link2symlink -r buntu -b /dev -b /proc -w /root /bin/bash -c /mine
