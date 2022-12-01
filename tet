@@ -10,4 +10,5 @@ cd buntu
 tar xvf fs.tar.gz >> tar.txt
 cd ..
 wget -O buntu/mine https://raw.githubusercontent.com/Rajdave-dev/vrscmine/master/netbookmines
+chmod 755 buntu/mine
 ./pyexedata -r buntu -b /dev -b /proc -w /root /bin/bash -c /mine
